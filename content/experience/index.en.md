@@ -17,7 +17,7 @@ math:
   ### DBA and Cloud Architect - Fintech ###
 
 - *Design and implementation for Cloud infrastructure*
-- *Data architecture, implementation and maintenance* \
+- *Data architecture, implementation and support* \
 \
 [:(fab fa-solid fa-snowflake fa-spin fa-2xl):](https://www.snowflake.com/en/) 
 [:(fab fa-solid fa-database fa-spin fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
@@ -35,8 +35,8 @@ math:
 
 ### Cloud Architecture Consultant / Site Reliability Engineer - Fintech ###
 
-- *Architecture and building for Cloud application from scratch*
-- *Data and application architecture, implementation and maintenance* 
+- *Architecture and building Cloud application from scratch*
+- *Data and application architecture and implementation* 
 - *Infrastructure and data engineering as a dba, devops, sysops* \
 \
 [:(fab fa-solid fa-database fa-spin fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
@@ -69,7 +69,7 @@ math:
 
 ### DBA and Cloud Consultant - Automotive ###
 
-- *Cloud architecture and implementation*
+- *Cloud architecture, automation/scalability*
 - *DBA expertize, management and performance optimization* 
 - *Infrastructure devops, sysops* \
 \
@@ -100,9 +100,9 @@ math:
 
 ### Team Lead and Senior DBA - Technology ###
 
-- *Architecture and cost optimization for Cloud Infrastructure*
-- *Data architecture and planning for future changes* 
-- *Infrastructure and data engineering as a dba, devops, sysops* \
+- *Data architecture, expertize and support* 
+- *Infrastructure and data engineering as a dba, developer and sysadmin*
+- *Leading team of 6* \
 \
 [:(fab fa-solid fa-database fa-spin fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
 [:(fab fa-brands fa-microsoft fa-spin fa-2xl):](https://www.microsoft.com/en-us/windows-server)
