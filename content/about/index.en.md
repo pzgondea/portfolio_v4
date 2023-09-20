@@ -18,9 +18,9 @@ math:
 
 &nbsp;
 
-*[:(fab fa-solid fa-envelope fa-spin fa-2xl):](mailto:paul@zgondea.com)*&nbsp;&nbsp;
-*[:(fab fa-brands fa-linkedin-in fa-spin fa-2xl):](https://linkedin.com/in/zgondeapaul)*&nbsp;&nbsp;
-*[:(fab fa-brands fa-telegram fa-spin fa-2xl):](https://t.me/ZVPalu)*&nbsp;&nbsp;
-*[:(fab fa-brands fa-skype fa-spin fa-2xl):](skype:%25!%28EXTRA%20string=paul.zgondea%29)*&nbsp;&nbsp;
+*[:(fab fa-solid fa-envelope fa-shake fa-2xl):](mailto:paul@zgondea.com)*&nbsp;&nbsp;
+*[:(fab fa-brands fa-linkedin-in fa-shake fa-2xl):](https://linkedin.com/in/zgondeapaul)*&nbsp;&nbsp;
+*[:(fab fa-brands fa-telegram fa-shake fa-2xl):](https://t.me/ZVPalu)*&nbsp;&nbsp;
+*[:(fab fa-brands fa-skype fa-shake fa-2xl):](skype:%25!%28EXTRA%20string=paul.zgondea%29)*&nbsp;&nbsp;
 
 
