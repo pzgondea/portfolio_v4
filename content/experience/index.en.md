@@ -19,14 +19,14 @@ math:
 - *Design and implementation for Cloud infrastructure*
 - *Data architecture, implementation and support* \
 \
-[:(fab fa-solid fa-snowflake fa-spin fa-2xl):](https://www.snowflake.com/en/) 
-[:(fab fa-solid fa-database fa-spin fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
-[:(fab fa-solid fa-cloud fa-spin fa-2xl):](https://azure.microsoft.com/)
-[:(fab fa-solid fa-industry fa-spin fa-2xl):](https://azure.microsoft.com/en-us/products/data-factory/)
-[:(fab fa-solid fa-layer-group fa-spin fa-2xl):](https://www.databricks.com/)
-[:(fab fa-solid fa-rocket fa-spin fa-2xl):](https://azure.microsoft.com/en-us/products/devops)
-[:(fab fa-brands fa-github fa-spin fa-2xl):](https://www.github.com)
-[:(fab fa-brands fa-microsoft fa-spin fa-2xl):](https://www.microsoft.com/en-us/windows-server)
+[:(fab fa-solid fa-snowflake  fa-2xl):](https://www.snowflake.com/en/) 
+[:(fab fa-solid fa-database  fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
+[:(fab fa-solid fa-cloud  fa-2xl):](https://azure.microsoft.com/)
+[:(fab fa-solid fa-industry  fa-2xl):](https://azure.microsoft.com/en-us/products/data-factory/)
+[:(fab fa-solid fa-layer-group  fa-2xl):](https://www.databricks.com/)
+[:(fab fa-solid fa-rocket  fa-2xl):](https://azure.microsoft.com/en-us/products/devops)
+[:(fab fa-brands fa-github  fa-2xl):](https://www.github.com)
+[:(fab fa-brands fa-microsoft  fa-2xl):](https://www.microsoft.com/en-us/windows-server)
 
 &nbsp;
 
@@ -39,10 +39,10 @@ math:
 - *Data and application architecture and implementation* 
 - *Infrastructure and data engineering as a dba, devops, sysops* \
 \
-[:(fab fa-solid fa-database fa-spin fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
-[:(fab fa-brands fa-aws fa-spin fa-2xl):](https://aws.amazon.com/)
-[:(fab fa-brands fa-microsoft fa-spin fa-2xl):](https://www.microsoft.com/en-us/windows-server)
-[:(fab fa-brands fa-linux fa-spin fa-2xl):](https://www.linux.org/)
+[:(fab fa-solid fa-database  fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
+[:(fab fa-brands fa-aws  fa-2xl):](https://aws.amazon.com/)
+[:(fab fa-brands fa-microsoft  fa-2xl):](https://www.microsoft.com/en-us/windows-server)
+[:(fab fa-brands fa-linux  fa-2xl):](https://www.linux.org/)
 
 
 &nbsp;
@@ -56,11 +56,11 @@ math:
 - *Data architecture and planning for future changes* 
 - *Infrastructure and data engineering as a dba, devops, sysops* \
 \
-[:(fab fa-solid fa-database fa-spin fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
-[:(fab fa-brands fa-aws fa-spin fa-2xl):](https://aws.amazon.com/)
-[:(fab fa-brands fa-github fa-spin fa-2xl):](https://www.github.com)
-[:(fab fa-brands fa-microsoft fa-spin fa-2xl):](https://www.microsoft.com/en-us/windows-server)
-[:(fab fa-brands fa-linux fa-spin fa-2xl):](https://www.linux.org/)
+[:(fab fa-solid fa-database  fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
+[:(fab fa-brands fa-aws  fa-2xl):](https://aws.amazon.com/)
+[:(fab fa-brands fa-github  fa-2xl):](https://www.github.com)
+[:(fab fa-brands fa-microsoft  fa-2xl):](https://www.microsoft.com/en-us/windows-server)
+[:(fab fa-brands fa-linux  fa-2xl):](https://www.linux.org/)
 
 &nbsp;
 
@@ -73,13 +73,13 @@ math:
 - *DBA expertize, management and performance optimization* 
 - *Infrastructure devops, sysops* \
 \
-[:(fab fa-solid fa-database fa-spin fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
-[:(fab fa-brands fa-aws fa-spin fa-2xl):](https://aws.amazon.com/)
-[:(fab fa-brands fa-github fa-spin fa-2xl):](https://www.github.com)
-[:(fab fa-solid fa-dog fa-spin fa-2xl):](https://www.datadoghq.com/)
-[:(fab fa-solid fa-warehouse fa-spin fa-2xl):](https://www.zadara.com/)
-[:(fab fa-brands fa-microsoft fa-spin fa-2xl):](https://www.microsoft.com/en-us/windows-server)
-[:(fab fa-brands fa-linux fa-spin fa-2xl):](https://www.linux.org/)
+[:(fab fa-solid fa-database  fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
+[:(fab fa-brands fa-aws  fa-2xl):](https://aws.amazon.com/)
+[:(fab fa-brands fa-github  fa-2xl):](https://www.github.com)
+[:(fab fa-solid fa-dog  fa-2xl):](https://www.datadoghq.com/)
+[:(fab fa-solid fa-warehouse  fa-2xl):](https://www.zadara.com/)
+[:(fab fa-brands fa-microsoft  fa-2xl):](https://www.microsoft.com/en-us/windows-server)
+[:(fab fa-brands fa-linux  fa-2xl):](https://www.linux.org/)
 
 &nbsp;
 
@@ -90,9 +90,9 @@ math:
 
 - *DBA expertize, management and performance optimization* \
 \
-[:(fab fa-solid fa-database fa-spin fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
-[:(fab fa-brands fa-microsoft fa-spin fa-2xl):](https://www.microsoft.com/en-us/windows-server)
-[:(fab fa-brands fa-linux fa-spin fa-2xl):](https://www.linux.org/)
+[:(fab fa-solid fa-database  fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
+[:(fab fa-brands fa-microsoft  fa-2xl):](https://www.microsoft.com/en-us/windows-server)
+[:(fab fa-brands fa-linux  fa-2xl):](https://www.linux.org/)
 
 &nbsp;
 
@@ -104,9 +104,9 @@ math:
 - *Infrastructure and data engineering as a dba, developer and sysadmin*
 - *Leading team of 6* \
 \
-[:(fab fa-solid fa-database fa-spin fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
-[:(fab fa-brands fa-microsoft fa-spin fa-2xl):](https://www.microsoft.com/en-us/windows-server)
-[:(fab fa-brands fa-linux fa-spin fa-2xl):](https://www.linux.org/)
+[:(fab fa-solid fa-database  fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
+[:(fab fa-brands fa-microsoft  fa-2xl):](https://www.microsoft.com/en-us/windows-server)
+[:(fab fa-brands fa-linux  fa-2xl):](https://www.linux.org/)
 
 &nbsp;
 
