@@ -2,7 +2,7 @@
 title: "Work Experience"
 date: 2023-09-02T11:04:49+08:00
 draft: false
-description: "About LoveIt"
+description: "Work Experience"
 images: ["/Apple-Devices-Preview.png"]
 
 lightgallery: true
@@ -16,7 +16,7 @@ math:
 
   ### DBA and Cloud Architect - Fintech ###
 
-- *Design and implementation for Cloud infrastructure*
+- *Design and implementation for cloud infrastructure*
 - *Data architecture, implementation and support* \
 \
 [:(fab fa-solid fa-snowflake  fa-2xl):](https://www.snowflake.com/en/) 
@@ -33,9 +33,9 @@ math:
 
 ## **[Ordertime](https://ordertime.com/) contractor - since 2018** ##
 
-### Cloud Architecture Consultant / Site Reliability Engineer - Fintech ###
+### Cloud Architect / SRE - Fintech ###
 
-- *Architecture and building Cloud application from scratch*
+- *Building Cloud application from scratch*
 - *Data and application architecture and implementation* 
 - *Infrastructure and data engineering as a dba, devops, sysops* \
 \
@@ -50,10 +50,10 @@ math:
 
 ## **[OSF](https://osf.digital/) contractor - 2022/2023** ##
 
-### DBA and Cloud Consultant - Technology ###
+### DBA and Cloud Consultant - Tech ###
 
-- *Architecture and cost optimization for Cloud Infrastructure*
-- *Data architecture and planning for future changes* 
+- *Design and cost optimization for cloud infrastructure*
+- *Data architecture innovation* 
 - *Infrastructure and data engineering as a dba, devops, sysops* \
 \
 [:(fab fa-solid fa-database  fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
