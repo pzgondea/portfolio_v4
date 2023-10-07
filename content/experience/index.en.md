@@ -16,7 +16,7 @@ math:
 
   ### Data and Cloud Architect - Fintech ###
 
-- *Design and implementation for cloud infrastructure*
+- *Design and deployment of cloud infrastructure*
 - *Data architecture, management and support* \
 \
 [:(fab fa-solid fa-snowflake  fa-2xl):](https://www.snowflake.com/en/) 
@@ -36,8 +36,8 @@ math:
 ### Cloud Architect / SRE - Fintech ###
 
 - *Building cloud application from scratch*
-- *Data and application architecture and implementation* 
-- *Infrastructure and data engineering as a dba, devops, sysops* \
+- *Data architecture inception and deployment* 
+- *Infrastructure and data engineering as a dba, devops, sysops, sre* \
 \
 [:(fab fa-solid fa-database  fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
 [:(fab fa-brands fa-aws  fa-2xl):](https://aws.amazon.com/)
@@ -52,7 +52,7 @@ math:
 
 ### DBA and Cloud Consultant - Tech ###
 
-- *Design and cost optimization for cloud infrastructure*
+- *Cost optimization for cloud infrastructure*
 - *Data architecture innovation* 
 - *Infrastructure and data engineering as a dba, devops, sysops* \
 \
