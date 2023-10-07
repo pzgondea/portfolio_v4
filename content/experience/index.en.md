@@ -14,10 +14,10 @@ math:
 
 ## **[Toptal](https://www.toptal.com/) contractor - since 2020** ##
 
-  ### DBA and Cloud Architect - Fintech ###
+  ### Data and Cloud Architect - Fintech ###
 
 - *Design and implementation for cloud infrastructure*
-- *Data architecture, implementation and support* \
+- *Data architecture, management and support* \
 \
 [:(fab fa-solid fa-snowflake  fa-2xl):](https://www.snowflake.com/en/) 
 [:(fab fa-solid fa-database  fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
@@ -35,7 +35,7 @@ math:
 
 ### Cloud Architect / SRE - Fintech ###
 
-- *Building Cloud application from scratch*
+- *Building cloud application from scratch*
 - *Data and application architecture and implementation* 
 - *Infrastructure and data engineering as a dba, devops, sysops* \
 \
@@ -88,7 +88,7 @@ math:
 
 ### Senior DBA - Technology ###
 
-- *DBA expertize, management and performance optimization* \
+- *DBA expertize in management and performance optimization* \
 \
 [:(fab fa-solid fa-database  fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
 [:(fab fa-brands fa-microsoft  fa-2xl):](https://www.microsoft.com/en-us/windows-server)
