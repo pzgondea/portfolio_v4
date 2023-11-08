@@ -110,7 +110,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     #  whether to show Hugo and theme info
     hugo = false
     #  whether to show copyright info
-    copyright = false
+    copyright = true
     #  whether to show the author
     author = false
     # Site creation time
