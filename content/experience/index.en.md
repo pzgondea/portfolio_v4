@@ -32,6 +32,8 @@ math:
 
 ## **[SprChrgr](https://sprchrgr.com/) contractor - since 2023** ##
 
+# Cloud and Data Architect - Fintech #
+
 ### Cloud and Data Architect - Fintech ###
 
 - *Architecting and building infrastructure*
