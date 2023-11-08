@@ -40,15 +40,15 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 [menu]
   [[menu.main]]
     weight = 3
-    identifier = "posts"
+    identifier = "credentials"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
-    # post = ""
-    #name = "Posts"
-    #url = "/posts/"
+    post = ""
+    name = "Credentials"
+    url = "/credentials/"
     # title will be shown when you hover on this menu link
-    # title = ""
+     title = ""
   [[menu.main]]
     weight = 2
     identifier = "about"
