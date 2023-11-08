@@ -30,6 +30,22 @@ math:
 
 &nbsp;
 
+## **[SprChrgr](https://sprchrgr.com/) contractor - since 2023** ##
+
+### Cloud and Data Architect - Fintech ###
+
+- *Architecting and building infrastructure*
+- *Data and DR architecture and deployment* 
+- *Consulting and training for on-prem personnel*
+\
+[:(fab fa-solid fa-database  fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
+[:(fab fa-brands fa-aws  fa-2xl):](https://aws.amazon.com/)
+[:(fab fa-brands fa-microsoft  fa-2xl):](https://www.microsoft.com/en-us/windows-server)
+[:(fab fa-brands fa-linux  fa-2xl):](https://www.linux.org/)
+
+
+&nbsp;
+
 
 ## **[Ordertime](https://ordertime.com/) contractor - since 2018** ##
 
