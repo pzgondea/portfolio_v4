@@ -12,8 +12,8 @@ math:
 ---
 
 # **CREDENTIALS** #
-## Microsoft : ##  
+## [Full Microsoft Transcript](https://learn.microsoft.com/en-us/users/paulzgondea-3565/transcript/71p4yflepl3k92x?wt.mc_id=pvue_msft_webpage_wwl&tab=credentials-tab) ##
 - ### Microsoft® Certified Solutions Expert: Data Management and Analytics Charter Member ###
 - ### Microsoft® Certified Solutions Expert: Data Platform ###
 
-## [Full Microsoft Transcript](https://learn.microsoft.com/en-us/users/paulzgondea-3565/transcript/71p4yflepl3k92x?wt.mc_id=pvue_msft_webpage_wwl&tab=credentials-tab) ##
+
