@@ -30,9 +30,8 @@ math:
 
 &nbsp;
 
-## **[SprChrgr](https://sprchrgr.com/) contractor - since 2023** ##
 
-# Cloud and Data Architect - Fintech #
+# **[SprChrgr](https://sprchrgr.com/) contractor - since 2023** #
 
 ### Cloud and Data Architect - Fintech ###
 
