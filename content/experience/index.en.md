@@ -33,7 +33,7 @@ math:
 
 # **[SprChrgr](https://sprchrgr.com/) contractor - since 2023** #
 
-### Cloud and Data Architect - Fintech ###
+## Cloud and Data Architect - Fintech ##
 
 - *Architecting and building infrastructure*
 - *Data and DR architecture and deployment* 
@@ -50,7 +50,7 @@ math:
 
 # **[Ordertime](https://ordertime.com/) contractor - since 2018** #
 
-### Cloud Architect / SRE - Fintech ###
+## Cloud Architect / SRE - Fintech ##
 
 - *Building cloud application from scratch*
 - *Data architecture inception and deployment* 
@@ -67,7 +67,7 @@ math:
 
 # **[OSF](https://osf.digital/) contractor - 2022/2023** #
 
-### DBA and Cloud Consultant - Tech ###
+## DBA and Cloud Consultant - Tech ##
 
 - *Cost optimization for cloud infrastructure*
 - *Data architecture innovation* 
@@ -84,7 +84,7 @@ math:
 
 # **[Performax](https://iperformax.com/) contractor - 2016-2020 / 2022** #
 
-### DBA and Cloud Consultant - Automotive ###
+## DBA and Cloud Consultant - Automotive ##
 
 - *Cloud architecture, automation/scalability*
 - *DBA expertize, management and performance optimization* 
@@ -103,7 +103,7 @@ math:
 
 # **[RIA Solutions Group ](https://riasolutionsgroup.com/) FTE - 2014- 2018** #
 
-### Senior DBA - Technology ###
+## Senior DBA - Technology ##
 
 - *DBA expertize in management and performance optimization* \
 \
@@ -115,7 +115,7 @@ math:
 
 # **[OSF](https://osf.digital/) FTE - 2009/2014** #
 
-### Team Lead and Senior DBA - Technology ###
+## Team Lead and Senior DBA - Technology ##
 
 - *Data architecture, expertize and support* 
 - *Infrastructure and data engineering as a dba, developer and sysadmin*
@@ -127,4 +127,4 @@ math:
 
 &nbsp;
 
-# **For previous experience please visit my [LinkedIn](https://www.linkedin.com/in/zgondeapaul/) page** #
+## **For previous experience please visit my [LinkedIn](https://www.linkedin.com/in/zgondeapaul/) page** ##
