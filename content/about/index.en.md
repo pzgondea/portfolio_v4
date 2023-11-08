@@ -22,5 +22,5 @@ math:
 *[:(fab fa-brands fa-linkedin-in fa-beat-fade fa-2xl):](https://linkedin.com/in/zgondeapaul)*&nbsp;&nbsp;
 *[:(fab fa-brands fa-telegram fa-beat fa-2xl):](https://t.me/ZVPalu)*&nbsp;&nbsp;
 *[:(fab fa-brands fa-skype fa-bounce fa-2xl):](skype:%25!%28EXTRA%20string=paul.zgondea%29)*&nbsp;&nbsp;
-*[:(fab fa-user-plus fa-bounce fa-2xl):](skype:%25!%28EXTRA%20string=paul.zgondea%29)*&nbsp;&nbsp;
+*[:(fab fa-teamspeak fa-bounce fa-2xl):](skype:%25!%28EXTRA%20string=paul.zgondea%29)*&nbsp;&nbsp;
 
