@@ -10,10 +10,13 @@ lightgallery: true
 math:
   enable: true
 ---
+&nbsp;
+&nbsp;
 
-## Cloud and Data Consultant ##
-### *Paul Zgondea boasts a wealth of expertise spanning over 18 years in the realm of data architecture, complemented by an additional 8 years dedicated to cloud architecture.*### \
-### *Feel free to reach out to me directly via the provided links below or consider retaining my services through [Toptal](https://www.toptal.com/resume/paul-zgondea)* ###
+  
+&nbsp;
+
+## Paul boasts a wealth of expertise spanning over 18 years in the realm of data architecture, complemented by an additional 8 years dedicated to cloud architecture. He is based in Brașov, Romania, is opened for fully remote jobs, and can be reached directly via the provided links below or through [Toptal](https://www.toptal.com/resume/paul-zgondea) ##
 
 &nbsp;
 
