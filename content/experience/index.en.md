@@ -12,7 +12,7 @@ math:
 ---
 
 
-## **[Toptal](https://www.toptal.com/) contractor - since 2020** ##
+# **[Toptal](https://www.toptal.com/) contractor - since 2020** #
 
   ### Data and Cloud Architect - Fintech ###
 
@@ -48,7 +48,7 @@ math:
 &nbsp;
 
 
-## **[Ordertime](https://ordertime.com/) contractor - since 2018** ##
+# **[Ordertime](https://ordertime.com/) contractor - since 2018** #
 
 ### Cloud Architect / SRE - Fintech ###
 
@@ -65,7 +65,7 @@ math:
 &nbsp;
 
 
-## **[OSF](https://osf.digital/) contractor - 2022/2023** ##
+# **[OSF](https://osf.digital/) contractor - 2022/2023** #
 
 ### DBA and Cloud Consultant - Tech ###
 
@@ -82,7 +82,7 @@ math:
 &nbsp;
 
 
-## **[Performax](https://iperformax.com/) contractor - 2016-2020 / 2022** ##
+# **[Performax](https://iperformax.com/) contractor - 2016-2020 / 2022** #
 
 ### DBA and Cloud Consultant - Automotive ###
 
@@ -101,7 +101,7 @@ math:
 &nbsp;
 
 
-## **[RIA Solutions Group ](https://riasolutionsgroup.com/) FTE - 2014- 2018** ##
+# **[RIA Solutions Group ](https://riasolutionsgroup.com/) FTE - 2014- 2018** #
 
 ### Senior DBA - Technology ###
 
@@ -113,7 +113,7 @@ math:
 
 &nbsp;
 
-## **[OSF](https://osf.digital/) FTE - 2009/2014** ##
+# **[OSF](https://osf.digital/) FTE - 2009/2014** #
 
 ### Team Lead and Senior DBA - Technology ###
 
@@ -127,4 +127,4 @@ math:
 
 &nbsp;
 
-## **For previous experience please visit my [LinkedIn](https://www.linkedin.com/in/zgondeapaul/) page** ##
+# **For previous experience please visit my [LinkedIn](https://www.linkedin.com/in/zgondeapaul/) page** #
