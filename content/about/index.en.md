@@ -11,15 +11,14 @@ math:
   enable: true
 ---
 
-## Senior QA Engineer ##
+# Cloud and Data Consultant #
 *Paul Zgondea boasts a wealth of expertise spanning over 18 years in the realm of data architecture, complemented by an additional 8 years dedicated to cloud architecture.*
 
-*Feel free to reach out to me directly via the provided e-mail below or consider retaining my services through *[E-mail](ruslan@yakovenko.org)* *
+*Feel free to reach out to me directly via the provided e-mail below or consider retaining my services through *
 
 &nbsp;
 
 *[:(fab fa-solid fa-envelope fa-shake fa-2xl):](mailto:paul@zgondea.com)*&nbsp;&nbsp;
-*[:(fab fa-brands fa-linkedin-in fa-beat-fade fa-2xl):](https://www.linkedin.com/in/zgondeapaul/)*&nbsp;&nbsp;
 *[:(fab fa-brands fa-linkedin-in fa-beat-fade fa-2xl):](https://www.linkedin.com/in/zgondeapaul/)*&nbsp;&nbsp;
 *[:(fab fa-brands fa-skype fa-beat-fade fa-2xl):](skype:%25!%28EXTRA%20string=paul.zgondea%29)*&nbsp;&nbsp;
 *[:(fab fa-brands fa-telegram fa-beat-fade fa-2xl):](https://t.me/ZVPalu)*&nbsp;&nbsp;
