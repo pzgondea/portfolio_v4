@@ -14,7 +14,7 @@ math:
 
 # **[Toptal](https://www.toptal.com/) contractor - since 2020** #
 
-  ### Data and Cloud Architect - Fintech ###
+  ## Data and Cloud Architect - Fintech ##
 
 - *Design and deployment of cloud infrastructure*
 - *Data architecture, management and support* \
