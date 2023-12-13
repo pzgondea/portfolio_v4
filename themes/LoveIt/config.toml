@@ -92,7 +92,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     #  Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = "https://cdn.discordapp.com/attachments/1156664313264750652/1160325473113485442/zvpalu_black_and_white_sketch_of_fat_database_engineer_with_bea_6c141e37-e4c5-48f9-bfac-47ddb9f57945.png?ex=6534404e&is=6521cb4e&hm=7bc1def081002901a101a5126a4fb9834c69b187be624f1c3419e2a12274b3bc&"
+      logo = "https://drive.google.com/uc?id=1tJJ_KmtmtCq1SHa8gwnuaP8yhf2HqEji"
       # title name
       name = ""
       # you can add extra information before the name (HTML format is supported), such as icons
