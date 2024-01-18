@@ -16,7 +16,7 @@ math:
 &nbsp;
 
 
-# **[Toptalll](https://www.toptal.com/) contractor - since 2020** #
+# **[Toptal](https://www.toptal.com/) contractor - since 2020** #
 
   ## Cloud and Data Architect - Fintech ##
 

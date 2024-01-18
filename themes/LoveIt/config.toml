@@ -92,7 +92,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     #  Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = "https://drive.google.com/uc?id=1tJJ_KmtmtCq1SHa8gwnuaP8yhf2HqEji"
+      logo = "/lib/images/pz_small.jpg"
       # title name
       name = ""
       # you can add extra information before the name (HTML format is supported), such as icons
