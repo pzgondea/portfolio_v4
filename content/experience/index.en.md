@@ -34,6 +34,24 @@ math:
 
 &nbsp;
 
+# **[NMFTA](https://nmfta.org/) contractor - since 2023** #
+
+## Cloud Architect - Automotive ##
+
+- *Building and documenting modern applications using AI and Azure services*
+- *Data architecture scalability* 
+- *Performance testing automation* 
+- *Infrastructure and data engineering as a dba, devops, sysops, sre* \
+\
+[:(fab fa-solid fa-database  fa-2xl):](https://www.microsoft.com/en-us/sql-server/)
+[:(fab fa-brands fa-aws  fa-2xl):](https://aws.amazon.com/)
+[:(fab fa-brands fa-microsoft  fa-2xl):](https://www.microsoft.com/en-us/windows-server)
+[:(fab fa-brands fa-linux  fa-2xl):](https://www.linux.org/)
+
+
+&nbsp;
+
+
 
 # **[SprChrgr](https://sprchrgr.com/) contractor - since 2023** #
 
