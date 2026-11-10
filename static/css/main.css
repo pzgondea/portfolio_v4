@@ -19,14 +19,19 @@
   --accent-blue: #38bdf8;
 
   --text-main: #f8fafc;
-  --text-muted: #94a3b8;
-  --text-dim: #64748b;
+  --text-muted: #cbd5e1;
+  --text-dim: #94a3b8;
 
   --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
   --mouse-x: 50%;
   --mouse-y: 50%;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-cyan);
+  outline-offset: 3px;
 }
 
 *, *::before, *::after {
@@ -191,7 +196,7 @@ body {
 }
 
 .brand-subtitle {
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   color: var(--text-dim);
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -249,7 +254,7 @@ body {
   background: rgba(52, 211, 153, 0.1);
   border: 1px solid rgba(52, 211, 153, 0.3);
   border-radius: 9999px;
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   font-weight: 700;
   color: var(--accent-emerald);
   letter-spacing: 0.05em;
@@ -387,7 +392,7 @@ body {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid var(--border-subtle);
   border-radius: 9999px;
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   font-weight: 700;
   color: var(--text-muted);
   letter-spacing: 0.12em;
@@ -659,7 +664,7 @@ body {
 .pm-number span.emerald { color: var(--accent-emerald); }
 
 .pm-label {
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -749,7 +754,7 @@ body {
 
 .section-tag {
   display: inline-block;
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   font-weight: 800;
   color: var(--accent-cyan);
   text-transform: uppercase;
@@ -797,7 +802,7 @@ body {
 }
 
 .exp-period {
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   font-weight: 800;
   font-family: var(--font-mono);
   color: var(--accent-cyan);
@@ -929,12 +934,12 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   font-weight: 800;
   color: var(--accent-emerald);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  padding: 0.25rem 0.55rem;
+  padding: 0.3rem 0.65rem;
   background: rgba(52, 211, 153, 0.1);
   border: 1px solid rgba(52, 211, 153, 0.25);
   border-radius: 9999px;
@@ -1466,3 +1471,23 @@ body {
     color: #334155 !important;
   }
 }
+
+/* ==========================================================================
+   Reduced Motion Accessibility (WCAG 2.2)
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .beacon-dot,
+  .profile-ambient-orb,
+  .ambient-glow-top,
+  .ambient-glow-bottom {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
