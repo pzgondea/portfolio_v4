@@ -65,10 +65,14 @@ function initProfileTabs() {
     btn.addEventListener('click', () => {
       const targetId = btn.getAttribute('data-tab-target');
 
-      tabBtns.forEach(b => b.classList.remove('active'));
+      tabBtns.forEach(b => {
+        b.classList.remove('active');
+        b.setAttribute('aria-selected', 'false');
+      });
       tabPanels.forEach(p => p.classList.remove('active'));
 
       btn.classList.add('active');
+      btn.setAttribute('aria-selected', 'true');
       const targetPanel = document.getElementById(targetId);
       if (targetPanel) {
         targetPanel.classList.add('active');
@@ -87,6 +91,7 @@ function initIntakeModal() {
   if (!modal) return;
 
   let currentStep = 1;
+  let lastFocusedElement = null;
   const stepTitles = ["Environment", "Objective", "Context", "Scheduling"];
 
   const intakeData = {
@@ -118,20 +123,29 @@ function initIntakeModal() {
     }
   };
 
-  const openModal = () => {
+  const openModal = (triggerEl) => {
+    lastFocusedElement = triggerEl || document.activeElement;
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
     showStep(1);
+
+    setTimeout(() => {
+      const firstChoice = modal.querySelector('[data-environment-choice], .modal-close-btn');
+      firstChoice?.focus();
+    }, 50);
   };
 
   const closeModal = () => {
     modal.classList.remove('active');
     document.body.style.overflow = '';
+    if (lastFocusedElement && typeof lastFocusedElement.focus === 'function') {
+      lastFocusedElement.focus();
+    }
   };
 
   openButtons.forEach(btn => btn.addEventListener('click', (e) => {
     e.preventDefault();
-    openModal();
+    openModal(btn);
   }));
 
   closeButtons.forEach(btn => btn.addEventListener('click', closeModal));
@@ -140,9 +154,28 @@ function initIntakeModal() {
     if (e.target === modal) closeModal();
   });
 
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && modal.classList.contains('active')) {
+  // Modal Keyboard Navigation & Focus Trap
+  modal.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
       closeModal();
+      return;
+    }
+
+    if (e.key === 'Tab') {
+      const focusable = modal.querySelectorAll('button:not([disabled]), [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+      const visibleFocusable = Array.from(focusable).filter(el => el.offsetParent !== null);
+      if (!visibleFocusable.length) return;
+
+      const firstEl = visibleFocusable[0];
+      const lastEl = visibleFocusable[visibleFocusable.length - 1];
+
+      if (e.shiftKey && document.activeElement === firstEl) {
+        e.preventDefault();
+        lastEl.focus();
+      } else if (!e.shiftKey && document.activeElement === lastEl) {
+        e.preventDefault();
+        firstEl.focus();
+      }
     }
   });
 
@@ -168,7 +201,7 @@ function initIntakeModal() {
   if (toStep4Btn) {
     toStep4Btn.addEventListener('click', () => {
       const notesEl = document.getElementById('modal-briefing-notes');
-      if (notesEl) intakeData.notes = notesEl.value;
+      if (notesEl) intakeData.notes = notesEl.value.trim();
       showStep(4);
     });
   }
@@ -181,11 +214,47 @@ function initIntakeModal() {
 
   function loadCalendarEmbed() {
     const container = document.getElementById('cal-embed-wrapper');
-    if (!container || container.getAttribute('data-loaded') === 'true') return;
+    const briefSummary = document.getElementById('modal-brief-summary');
+    const briefTextEl = document.getElementById('modal-brief-text');
+    const fallbackLink = document.getElementById('cal-fallback-link');
+    const copyBriefBtn = document.getElementById('copy-brief-btn');
+
+    // Build structured notes
+    const envStr = intakeData.environment || 'General Multi-Cloud';
+    const objStr = intakeData.objective || 'Strategic Review & Advisory';
+    const notesStr = intakeData.notes ? `\nDetails: ${intakeData.notes}` : '';
+    const fullBrief = `Target Environment: ${envStr}\nPrimary Objective: ${objStr}${notesStr}`;
+
+    if (briefSummary && briefTextEl) {
+      briefTextEl.innerHTML = `<strong>Environment:</strong> ${escapeHtml(envStr)}<br><strong>Objective:</strong> ${escapeHtml(objStr)}${intakeData.notes ? '<br><strong>Context:</strong> ' + escapeHtml(intakeData.notes) : ''}`;
+      briefSummary.style.display = 'block';
+    }
+
+    if (copyBriefBtn) {
+      copyBriefBtn.onclick = async () => {
+        try {
+          await navigator.clipboard.writeText(fullBrief);
+          showToast('Architecture brief copied to clipboard');
+        } catch {
+          showToast('Select and copy the brief above');
+        }
+      };
+    }
+
+    const encodedNotes = encodeURIComponent(fullBrief);
+    const calBaseUrl = "https://cal.com/paul-zgondea-ykew6o/30min";
+    const iframeSrc = `${calBaseUrl}?embed=true&theme=dark&notes=${encodedNotes}`;
+    const windowUrl = `${calBaseUrl}?notes=${encodedNotes}`;
+
+    if (fallbackLink) {
+      fallbackLink.href = windowUrl;
+    }
+
+    if (!container) return;
 
     container.innerHTML = `
       <iframe 
-        src="https://cal.com/paul-zgondea-ykew6o/30min?embed=true&theme=dark" 
+        src="${iframeSrc}" 
         width="100%" 
         height="500" 
         frameborder="0" 
@@ -193,14 +262,23 @@ function initIntakeModal() {
         title="Schedule Architecture Consultation with Paul Zgondea">
       </iframe>
       <div style="text-align: center; margin-top: 0.75rem;">
-        <a href="https://cal.com/paul-zgondea-ykew6o/30min" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan); font-size: 0.82rem; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.35rem;">
-          <span>Having trouble loading the calendar? Open Cal.com directly</span>
+        <a href="${windowUrl}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan); font-size: 0.82rem; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.35rem;">
+          <span>Having trouble loading the calendar? Open Cal.com directly with your prefilled brief</span>
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg>
         </a>
       </div>
     `;
-    container.setAttribute('data-loaded', 'true');
   }
+}
+
+function escapeHtml(str) {
+  return str.replace(/[&<>'"]/g, tag => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    "'": '&#39;',
+    '"': '&quot;'
+  }[tag] || tag));
 }
 
 /* ==========================================================================
