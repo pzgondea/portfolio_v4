@@ -2,10 +2,10 @@
 title: "About Paul Zgondea"
 date: 2024-01-01T00:00:00+02:00
 draft: false
-description: "Principal Cloud & Data Architect with 18+ years in enterprise data architecture and 8+ years in cloud infrastructure."
+description: "Principal Cloud & Data Architect with 18+ years in enterprise data architecture, 8+ years in cloud infrastructure, and 2+ years in AI Ops."
 ---
 
-Paul boasts a wealth of expertise spanning over **18 years in data architecture**, complemented by an additional **8 years dedicated to cloud architecture and SRE**. 
+Paul boasts a wealth of expertise spanning over **18 years in data architecture**, **8+ years dedicated to cloud architecture and SRE**, and **2+ years pioneering enterprise AI Ops & agent automation**. 
 
 Based in **Brașov, Romania**, he is open for high-impact fully remote strategic consulting, architecture design, and enterprise contractor engagements worldwide.
 
