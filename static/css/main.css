@@ -1423,3 +1423,46 @@ body {
     align-items: flex-start;
   }
 }
+
+/* ==========================================================================
+   Print Optimization (Clean Executive Brief Output)
+   ========================================================================== */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #0f172a !important;
+  }
+  .ambient-glow-top,
+  .ambient-glow-bottom,
+  .profile-ambient-orb,
+  .header-nav,
+  .modal-overlay,
+  .toast-notice,
+  .profile-tabs,
+  .btn-primary,
+  .btn-secondary {
+    display: none !important;
+  }
+  .spotlight-card,
+  .exp-card,
+  .credential-card,
+  .keystone-gateway-card {
+    border: 1px solid #cbd5e1 !important;
+    background: #ffffff !important;
+    box-shadow: none !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    color: #0f172a !important;
+  }
+  .hero-title,
+  .section-title,
+  .exp-headline,
+  .cred-title {
+    color: #0f172a !important;
+  }
+  .profile-bio-text,
+  .section-subtitle,
+  .exp-bullets {
+    color: #334155 !important;
+  }
+}

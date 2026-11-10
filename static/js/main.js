@@ -187,11 +187,17 @@ function initIntakeModal() {
       <iframe 
         src="https://cal.com/paul-zgondea-ykew6o/30min?embed=true&theme=dark" 
         width="100%" 
-        height="520" 
+        height="500" 
         frameborder="0" 
         style="border-radius: 1rem; background: transparent; border: 1px solid rgba(255, 255, 255, 0.1);" 
         title="Schedule Architecture Consultation with Paul Zgondea">
       </iframe>
+      <div style="text-align: center; margin-top: 0.75rem;">
+        <a href="https://cal.com/paul-zgondea-ykew6o/30min" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan); font-size: 0.82rem; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.35rem;">
+          <span>Having trouble loading the calendar? Open Cal.com directly</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg>
+        </a>
+      </div>
     `;
     container.setAttribute('data-loaded', 'true');
   }

@@ -35,6 +35,47 @@
 
   <!-- Stylesheet (Cache-Busted) -->
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}?v={{ now.Unix }}">
+
+  <!-- Schema.org Person Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Paul Zgondea",
+    "url": "https://paul.zgondea.com/",
+    "image": "https://paul.zgondea.com/lib/images/pz_small.jpg",
+    "jobTitle": "Principal Cloud & Data Architect",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Keystone Cloud Architects",
+      "url": "https://keystonecloud.org/"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brașov",
+      "addressCountry": "Romania"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/datacloudarchitect/",
+      "https://www.toptal.com/resume/paul-zgondea",
+      "https://github.com/pzgondea",
+      "https://keystonecloud.org/"
+    ],
+    "knowsAbout": [
+      "Enterprise Data Architecture",
+      "Cloud Architecture",
+      "AI Ops",
+      "Snowflake",
+      "Microsoft SQL Server",
+      "Amazon Web Services (AWS)",
+      "Microsoft Azure",
+      "Google Cloud Platform (GCP)",
+      "Databricks",
+      "Site Reliability Engineering (SRE)",
+      "Zero-Downtime Migrations"
+    ]
+  }
+  </script>
 </head>
 <body>
   <!-- Ambient Atmosphere Lighting -->
