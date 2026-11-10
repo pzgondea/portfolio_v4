@@ -9,7 +9,13 @@
   <meta property="og:type" content="article">
   <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}Paul Zgondea{{ end }}">
   <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}Principal Cloud &amp; Data Architect{{ end }}">
-  <meta property="og:image" content="{{ "lib/images/pz.jpeg" | absURL }}">
+  <meta property="og:image" content="{{ "lib/images/og_card.jpg" | absURL }}">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ if .Title }}{{ .Title }} — {{ end }}Paul Zgondea">
+  <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}Principal Cloud &amp; Data Architect{{ end }}">
+  <meta name="twitter:image" content="{{ "lib/images/og_card.jpg" | absURL }}">
 
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
@@ -46,6 +52,7 @@
           <li><a href="{{ "/#profile" | relURL }}" class="nav-link">Profile</a></li>
           <li><a href="{{ "/#experience" | relURL }}" class="nav-link">Experience</a></li>
           <li><a href="{{ "/#credentials" | relURL }}" class="nav-link">Credentials</a></li>
+          <li><a href="{{ "/posts/a_wild_ride/" | relURL }}" class="nav-link">Articles</a></li>
           <li><a href="{{ "/#about" | relURL }}" class="nav-link">Connect</a></li>
           <li>
             <a href="https://keystonecloud.org/" target="_blank" rel="noopener noreferrer" class="nav-link" style="color:var(--accent-cyan); display:inline-flex; align-items:center; gap:0.25rem;">
