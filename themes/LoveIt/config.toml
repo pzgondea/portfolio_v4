@@ -208,7 +208,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
    # Social config about the author
   [params.social]
     GitHub = "pzgondea"
-    Linkedin = "zgondeapaul"
+    Linkedin = "datacloudarchitect"
     Twitter = "ZvPalu"
     Instagram = ""
     Facebook = ""

@@ -18,7 +18,7 @@ He is the Co-founder of [Keystone Cloud Architects](https://keystonecloud.org/) 
 
 ### Direct Channels
 - **Email:** [paul@zgondea.com](mailto:paul@zgondea.com)
-- **LinkedIn:** [linkedin.com/in/zgondeapaul](https://www.linkedin.com/in/zgondeapaul/)
+- **LinkedIn:** [linkedin.com/in/datacloudarchitect](https://www.linkedin.com/in/datacloudarchitect/)
 - **Toptal Profile:** [toptal.com/resume/paul-zgondea](https://www.toptal.com/resume/paul-zgondea)
 - **Keystone Cloud Architects:** [keystonecloud.org](https://keystonecloud.org/)
 - **Telegram:** [t.me/ZVPalu](https://t.me/ZVPalu)
