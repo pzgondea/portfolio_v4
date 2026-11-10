@@ -1,29 +1,25 @@
 ---
-title: ""
-date: 30.10.2023T11:19:02:49+07:00
+title: "About Paul Zgondea"
+date: 2024-01-01T00:00:00+02:00
 draft: false
-description: "About LoveIt"
-# images: ["/Apple-Devices-Preview.png"]
-
-lightgallery: true
-
-math:
-  enable: true
+description: "Principal Cloud & Data Architect with 18+ years in enterprise data architecture and 8+ years in cloud infrastructure."
 ---
-&nbsp;
-&nbsp;
 
-  
-&nbsp;
+Paul boasts a wealth of expertise spanning over **18 years in data architecture**, complemented by an additional **8 years dedicated to cloud architecture and SRE**. 
 
-## Paul boasts a wealth of expertise spanning over 18 years in the realm of data architecture, complemented by an additional 8 years dedicated to cloud architecture. He is based in Brașov, Romania, is opened for fully remote jobs, and can be reached directly via the provided links below or through [Toptal](https://www.toptal.com/resume/paul-zgondea) ##
+Based in **Brașov, Romania**, he is open for high-impact fully remote strategic consulting, architecture design, and enterprise contractor engagements worldwide.
 
-&nbsp;
+He is the Co-founder of [Keystone Cloud Architects](https://keystonecloud.org/) alongside Vlad Roman, operating on the philosophy of **Precision Engineering and Day-One Impact**.
 
-*[:(fab fa-solid fa-envelope fa-shake fa-2xl):](mailto:paul@zgondea.com)*&nbsp;&nbsp;
-*[:(fab fa-brands fa-linkedin-in fa-beat-fade fa-2xl):](https://www.linkedin.com/in/zgondeapaul/)*&nbsp;&nbsp;
-*[:(fab fa-brands fa-skype fa-beat-fade fa-2xl):](skype:%25!%28EXTRA%20string=paul.zgondea%29)*&nbsp;&nbsp;
-*[:(fab fa-brands fa-telegram fa-beat-fade fa-2xl):](https://t.me/ZVPalu)*&nbsp;&nbsp;
+### Core Expertise
+- **Enterprise Data Platforms:** Snowflake, Microsoft SQL Server, Databricks, Azure Data Factory, Lakehouse Architecture, Query Optimization & Sharding.
+- **Multi-Cloud Resilience:** AWS, Microsoft Azure, Linux, Windows Server, High-Availability Clustering & Disaster Recovery.
+- **AI-Native & SRE Systems:** Azure AI Services, automated performance stress testing, infrastructure-as-code, and observability.
 
-
-
+### Direct Channels
+- **Email:** [paul@zgondea.com](mailto:paul@zgondea.com)
+- **LinkedIn:** [linkedin.com/in/zgondeapaul](https://www.linkedin.com/in/zgondeapaul/)
+- **Toptal Profile:** [toptal.com/resume/paul-zgondea](https://www.toptal.com/resume/paul-zgondea)
+- **Keystone Cloud Architects:** [keystonecloud.org](https://keystonecloud.org/)
+- **Telegram:** [t.me/ZVPalu](https://t.me/ZVPalu)
+- **GitHub:** [github.com/pzgondea](https://github.com/pzgondea)

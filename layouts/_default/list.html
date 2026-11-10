@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="spotlight-card" style="padding: 3rem 2.5rem; max-width: 900px; margin: 0 auto;">
+  <h1 style="font-size: 2.5rem; font-weight: 800; color: #fff; letter-spacing: -0.03em; margin-bottom: 2rem;">{{ .Title }}</h1>
+  <div style="display:flex; flex-direction:column; gap:1.5rem;">
+    {{ range .Pages }}
+    <div style="padding:1.5rem; background:rgba(255,255,255,0.02); border:1px solid var(--border-subtle); border-radius:1rem;">
+      <h2 style="font-size:1.35rem; font-weight:700;"><a href="{{ .Permalink }}" style="color:#fff; text-decoration:none;">{{ .Title }}</a></h2>
+      <p style="color:var(--text-muted); margin-top:0.5rem;">{{ .Summary }}</p>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

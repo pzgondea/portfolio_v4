@@ -1,4 +1,9 @@
 baseURL = 'https://paul.zgondea.com'
 languageCode = 'en-us'
-title = 'Paul Zgondea'
+title = 'Paul Zgondea — Principal Cloud & Data Architect'
 theme = 'LoveIt'
+
+[params]
+  author = 'Paul Zgondea'
+  email = 'paul@zgondea.com'
+  description = '18+ years enterprise data architecture, 8+ years cloud architecture. Co-founder of Keystone Cloud Architects. Zero-downtime migrations, Snowflake, Databricks, AWS, Azure, SQL Server.'
