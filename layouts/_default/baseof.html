@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ if .Title }}{{ .Title }} — {{ end }}Paul Zgondea | Principal Cloud &amp; Data Architect</title>
-  <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}Paul Zgondea: 18+ years data architecture, 8+ years cloud architecture. Co-founder of Keystone Cloud Architects.{{ end }}">
+  <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}Paul Zgondea: 18+ years data architecture, 8+ years cloud architecture.{{ end }}">
 
   <meta property="og:type" content="article">
   <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}Paul Zgondea{{ end }}">
@@ -38,21 +38,26 @@
 
       <nav>
         <ul class="nav-links">
-          <li><a href="{{ "/#strategy" | relURL }}" class="nav-link">Architecture</a></li>
-          <li><a href="{{ "/#outcomes" | relURL }}" class="nav-link">Competence</a></li>
+          <li><a href="{{ "/#profile" | relURL }}" class="nav-link">Profile</a></li>
           <li><a href="{{ "/#experience" | relURL }}" class="nav-link">Experience</a></li>
-          <li><a href="{{ "/#credentials" | relURL }}" class="nav-link">Certifications</a></li>
-          <li><a href="{{ "/#about" | relURL }}" class="nav-link">About</a></li>
+          <li><a href="{{ "/#credentials" | relURL }}" class="nav-link">Credentials</a></li>
+          <li><a href="{{ "/#about" | relURL }}" class="nav-link">Connect</a></li>
+          <li>
+            <a href="https://keystonecloud.org/" target="_blank" rel="noopener noreferrer" class="nav-link" style="color:var(--accent-cyan); display:inline-flex; align-items:center; gap:0.25rem;">
+              <span>Keystone Cloud</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            </a>
+          </li>
         </ul>
       </nav>
 
       <div class="nav-actions">
-        <div class="availability-beacon" title="Open for strategic architecture advisory & remote consulting">
+        <div class="availability-beacon" title="Open for remote architecture engagements & consulting">
           <span class="beacon-dot"></span>
           <span>Available</span>
         </div>
         <button type="button" class="btn-primary open-intake-modal">
-          <span>Review Request</span>
+          <span>Start Intake</span>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </button>
       </div>
@@ -137,7 +142,7 @@
     <div class="container">
       <div class="footer-bottom">
         <span>&copy; {{ now.Format "2006" }} Paul Zgondea. All rights reserved.</span>
-        <a href="{{ "/" | relURL }}" style="color:var(--accent-cyan); text-decoration:none;">Back to Overview &rarr;</a>
+        <a href="{{ "/" | relURL }}" style="color:var(--accent-cyan); text-decoration:none;">Back to Profile &rarr;</a>
       </div>
     </div>
   </footer>
