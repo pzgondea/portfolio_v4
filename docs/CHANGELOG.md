@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [v4.3.0] — 2026-11-10
 ### Added
+- **Complete Favicon Suite**: Generated and deployed custom obsidian brand monogram (`PZ`) favicons across all modern formats: `favicon.svg`, `favicon-32x32.png`, `favicon-16x16.png`, `apple-touch-icon.png` (180x180), and multi-frame `favicon.ico`.
 - **AI Ops Specialization**: Added 2+ years AI Ops competence across hero eyebrow, executive overview bio, metrics grid, and site metadata.
 - **5th Metric Box**: Added a 5th metric box (`2+ Years AI Ops & Agents`) with responsive auto-wrapping grid layout.
 - **Repository Documentation**: Added `MIND_MAP.md` durable orientation index with navigational hubs `[1-5]`, format specification in `MIND_MAP_FORMAT.md`, and `AGENTS.md` operating manual.
