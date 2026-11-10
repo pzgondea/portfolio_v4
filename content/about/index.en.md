@@ -5,11 +5,11 @@ draft: false
 description: "Principal Cloud & Data Architect with 18+ years in enterprise data architecture, 8+ years in cloud infrastructure, and 2+ years in AI Ops."
 ---
 
-Paul boasts a wealth of expertise spanning over **18 years in data architecture**, **8+ years dedicated to cloud architecture and SRE**, and **2+ years pioneering enterprise AI Ops & agent automation**. 
+I architect and scale enterprise cloud data platforms, high-availability database engines, and AI-native automation pipelines with over **18 years in data architecture**, **8+ years dedicated to cloud architecture and SRE**, and **2+ years pioneering enterprise AI Ops & agent automation**.
 
-Based in **Brașov, Romania**, he is open for high-impact fully remote strategic consulting, architecture design, and enterprise contractor engagements worldwide.
+Based in **Brașov, Romania**, I partner with engineering leaders globally for high-impact fully remote strategic consulting, architecture design, and mission-critical contractor engagements.
 
-He is the Co-founder of [Keystone Cloud Architects](https://keystonecloud.org/) alongside Vlad Roman, operating on the philosophy of **Precision Engineering and Day-One Impact**.
+I am the Co-founder of [Keystone Cloud Architects](https://keystonecloud.org/) alongside Vlad Roman, operating on the philosophy of **Precision Engineering and Day-One Impact**.
 
 ### Core Expertise
 - **Enterprise Data Platforms:** Snowflake, Microsoft SQL Server, Databricks, Azure Data Factory, Lakehouse Architecture, Query Optimization & Sharding.
@@ -21,5 +21,5 @@ He is the Co-founder of [Keystone Cloud Architects](https://keystonecloud.org/) 
 - **LinkedIn:** [linkedin.com/in/datacloudarchitect](https://www.linkedin.com/in/datacloudarchitect/)
 - **Toptal Profile:** [toptal.com/resume/paul-zgondea](https://www.toptal.com/resume/paul-zgondea)
 - **Keystone Cloud Architects:** [keystonecloud.org](https://keystonecloud.org/)
-- **Telegram:** [t.me/ZVPalu](https://t.me/ZVPalu)
 - **GitHub:** [github.com/pzgondea](https://github.com/pzgondea)
+

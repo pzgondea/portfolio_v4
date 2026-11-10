@@ -6,6 +6,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [v4.4.0] — 2026-11-10
+### Fixed
+- **Intake Funnel Data Loss**: Captured environment, objective, and briefing notes from steps 1–3 and formatted them into a structured brief displayed in step 4, prefilling Cal.com query parameters (`?notes=...`) and direct links, plus adding a one-click "Copy Brief" utility.
+- **Modal Keyboard Focus Trap**: Trapped Tab navigation inside active modal and restored focus to triggering button on modal dismissal (Escape or click).
+- **Articles Template Rendering**: Created `layouts/posts/single.html` to override the theme layout and render architectural essays with matching dark obsidian aesthetics and direct consultation CTA.
+
+### Changed
+- **Removed Informal Channels**: Removed Telegram and Skype links from hero quick-connect, about page, and footer channels to reinforce executive enterprise positioning.
+- **First-Person Executive Voice**: Rewrote all profile copy (hero bio, about page, and bottom CTA) from third-person agency phrasing to authoritative first-person executive voice.
+- **Grounded Credentials**: Replaced unverified checkmark badges with grounded charter/certification tags and added a direct public profile link to the Toptal card.
+- **Outcome-Driven Experience**: Enhanced career bullets across 9 roles with concrete uptime SLAs, cutover metrics, and FinOps outcomes while keeping prose concise.
+- **WCAG AA Accessibility & Typography**: Upgraded `--text-dim` contrast to `#94a3b8` (>5:1 ratio), bumped sub-12px micro-fonts to ≥0.75rem, added visible focus outlines, ARIA tab roles, and `@media (prefers-reduced-motion: reduce)`.
+
+### Added
+- **Optimized Social Card (`og:image`)**: Generated 1200×630 branded social share card `static/lib/images/og_card.jpg` (62KB, down from 1.1MB raw headshot) for LinkedIn, X, and Slack link previews.
+- **Robots.txt & Sitemap Linking**: Enabled `enableRobotsTXT = true` in `hugo.toml` and added `layouts/robots.txt` referencing `sitemap.xml`.
+- **Navigation Articles Link**: Added "Articles" link in main navigation bar, mobile drawer, and footer linking to "A Wild Ride: 18 Years in Data, 8 Years in the Cloud".
+
+---
+
 ## [v4.3.0] — 2026-11-10
 ### Added
 - **Complete Favicon Suite**: Generated and deployed custom obsidian brand monogram (`PZ`) favicons across all modern formats: `favicon.svg`, `favicon-32x32.png`, `favicon-16x16.png`, `apple-touch-icon.png` (180x180), and multi-frame `favicon.ico`.

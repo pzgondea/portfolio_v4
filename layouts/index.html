@@ -13,13 +13,13 @@
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:title" content="Paul Zgondea — Principal Cloud &amp; Data Architect">
   <meta property="og:description" content="18+ years data architecture, 8+ years cloud architecture, 2+ years AI Ops. Based in Brașov, Romania.">
-  <meta property="og:image" content="{{ "lib/images/pz.jpeg" | absURL }}">
+  <meta property="og:image" content="{{ "lib/images/og_card.jpg" | absURL }}">
 
   <!-- Twitter Meta -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Paul Zgondea — Principal Cloud &amp; Data Architect">
   <meta name="twitter:description" content="18+ years data architecture, 8+ years cloud architecture, 2+ years AI Ops.">
-  <meta name="twitter:image" content="{{ "lib/images/pz.jpeg" | absURL }}">
+  <meta name="twitter:image" content="{{ "lib/images/og_card.jpg" | absURL }}">
 
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
@@ -98,6 +98,7 @@
           <li><a href="#profile" class="nav-link">Profile</a></li>
           <li><a href="#experience" class="nav-link">Experience</a></li>
           <li><a href="#credentials" class="nav-link">Credentials</a></li>
+          <li><a href="{{ "/posts/a_wild_ride/" | relURL }}" class="nav-link">Articles</a></li>
           <li><a href="#about" class="nav-link">Connect</a></li>
           <li>
             <a href="https://keystonecloud.org/" target="_blank" rel="noopener noreferrer" class="nav-link" style="color:var(--accent-cyan); display:inline-flex; align-items:center; gap:0.25rem;">
@@ -129,6 +130,7 @@
     <a href="#profile" class="mobile-drawer-link" style="color:#cbd5e1; text-decoration:none; font-weight:600; padding:0.4rem 0;">Executive Profile</a>
     <a href="#experience" class="mobile-drawer-link" style="color:#cbd5e1; text-decoration:none; font-weight:600; padding:0.4rem 0;">Experience</a>
     <a href="#credentials" class="mobile-drawer-link" style="color:#cbd5e1; text-decoration:none; font-weight:600; padding:0.4rem 0;">Credentials &amp; Certs</a>
+    <a href="{{ "/posts/a_wild_ride/" | relURL }}" class="mobile-drawer-link" style="color:#cbd5e1; text-decoration:none; font-weight:600; padding:0.4rem 0;">Articles &amp; Insights</a>
     <a href="#about" class="mobile-drawer-link" style="color:#cbd5e1; text-decoration:none; font-weight:600; padding:0.4rem 0;">Direct Collaboration</a>
     <a href="https://keystonecloud.org/" target="_blank" rel="noopener noreferrer" style="color:var(--accent-cyan); text-decoration:none; font-weight:700; padding:0.4rem 0;">Visit Keystone Cloud &rarr;</a>
   </div>
@@ -171,20 +173,20 @@
             </div>
 
             <!-- Smooth Tab Switcher (No 3D rotation glitches) -->
-            <div class="profile-tabs" role="tablist">
-              <button type="button" class="profile-tab-btn active" data-tab-target="tab-executive-bio">
+            <div class="profile-tabs" role="tablist" aria-label="Profile Views">
+              <button type="button" class="profile-tab-btn active" role="tab" id="tab-btn-bio" aria-selected="true" aria-controls="tab-executive-bio" data-tab-target="tab-executive-bio">
                 Executive Overview
               </button>
-              <button type="button" class="profile-tab-btn" data-tab-target="tab-tech-matrix">
+              <button type="button" class="profile-tab-btn" role="tab" id="tab-btn-stack" aria-selected="false" aria-controls="tab-tech-matrix" data-tab-target="tab-tech-matrix">
                 Core Tech Stack
               </button>
             </div>
           </div>
 
           <!-- TAB 1: Executive Overview -->
-          <div id="tab-executive-bio" class="profile-tab-panel active">
+          <div id="tab-executive-bio" class="profile-tab-panel active" role="tabpanel" aria-labelledby="tab-btn-bio">
             <p class="profile-bio-text">
-              Paul boasts a wealth of expertise spanning over <strong>18 years in enterprise data architecture</strong>, <strong>8+ years dedicated to cloud architecture &amp; SRE</strong>, and <strong>2+ years in enterprise AI Ops &amp; agentic pipelines</strong>. Based in <strong>Brașov, Romania</strong>, he is open for fully remote engagements and can be reached directly via the channels below, through <a href="https://www.toptal.com/resume/paul-zgondea" target="_blank" rel="noopener noreferrer" style="color:var(--accent-cyan); text-decoration:none; font-weight:700;">Toptal</a>, or via his business practice at <a href="https://keystonecloud.org/" target="_blank" rel="noopener noreferrer" style="color:var(--accent-emerald); text-decoration:none; font-weight:700;">Keystone Cloud</a>.
+              I architect and scale enterprise cloud data platforms, high-availability database engines, and AI-native automation pipelines with over <strong>18 years in enterprise data architecture</strong>, <strong>8+ years dedicated to cloud architecture &amp; SRE</strong>, and <strong>2+ years in enterprise AI Ops &amp; agentic systems</strong>. Based in <strong>Brașov, Romania</strong>, I partner with engineering leaders globally for high-impact fully remote strategic consulting, fractional architecture, and mission-critical cloud cutovers. Connect directly below, explore my vetted profile on <a href="https://www.toptal.com/resume/paul-zgondea" target="_blank" rel="noopener noreferrer" style="color:var(--accent-cyan); text-decoration:none; font-weight:700;">Toptal</a>, or engage my advisory practice at <a href="https://keystonecloud.org/" target="_blank" rel="noopener noreferrer" style="color:var(--accent-emerald); text-decoration:none; font-weight:700;">Keystone Cloud</a>.
             </p>
 
             <div class="profile-metrics-row">
@@ -212,7 +214,7 @@
           </div>
 
           <!-- TAB 2: Core Tech Stack Matrix -->
-          <div id="tab-tech-matrix" class="profile-tab-panel">
+          <div id="tab-tech-matrix" class="profile-tab-panel" role="tabpanel" aria-labelledby="tab-btn-stack">
             <div class="stack-domains-grid">
               <div class="stack-domain-box">
                 <div class="stack-domain-title">Data Platforms &amp; Warehousing</div>
@@ -267,13 +269,9 @@
                 <span style="font-weight:800; color:var(--accent-cyan);">Toptal</span>
                 <span>Resume</span>
               </a>
-              <a href="https://t.me/ZVPalu" target="_blank" rel="noopener noreferrer" class="social-pill">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
-                <span>Telegram</span>
-              </a>
-              <a href="skype:paul.zgondea?chat" class="social-pill">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
-                <span>Skype</span>
+              <a href="https://github.com/pzgondea" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>GitHub</span>
               </a>
             </div>
 
@@ -311,7 +309,7 @@
             <h3 class="exp-headline">Principal Cloud Architect &amp; Co-Founder</h3>
             <ul class="exp-bullets">
               <li class="exp-bullet">Co-founded enterprise advisory practice delivering multi-cloud infrastructure and day-one precision architecture.</li>
-              <li class="exp-bullet">Architecting zero-downtime database migrations, resilient cloud platforms, and FinOps right-sizing.</li>
+              <li class="exp-bullet">Architecting zero-downtime database cutovers, resilient high-availability topologies, and FinOps cloud cost recovery.</li>
             </ul>
             <div class="bento-tech-pills">
               <span class="tech-pill">AWS</span>
@@ -319,7 +317,7 @@
               <span class="tech-pill">GCP</span>
               <span class="tech-pill">Snowflake</span>
               <span class="tech-pill">High Availability</span>
-              <span class="tech-pill">Disaster Recovery</span>
+              <span class="tech-pill">FinOps</span>
             </div>
           </div>
         </div>
@@ -336,8 +334,8 @@
           <div class="exp-content">
             <h3 class="exp-headline">Cloud Architecture Consultant / SRE</h3>
             <ul class="exp-bullets">
-              <li class="exp-bullet">Architected and engineered end-to-end AWS production infrastructure from the ground up.</li>
-              <li class="exp-bullet">Hands-on SRE, routing, load balancing, Active Directory, and mission-critical MS SQL Server clusters.</li>
+              <li class="exp-bullet">Architected and built end-to-end AWS production infrastructure from scratch, sustaining 99.99% service availability.</li>
+              <li class="exp-bullet">Direct SRE ownership: VPC routing, Route53, ALB, ElastiCache, Active Directory, and mission-critical MS SQL Server clusters.</li>
             </ul>
             <div class="bento-tech-pills">
               <span class="tech-pill">AWS</span>
@@ -364,8 +362,8 @@
           <div class="exp-content">
             <h3 class="exp-headline">Cloud Architecture Consultant</h3>
             <ul class="exp-bullets">
-              <li class="exp-bullet">Architected high-scalability Azure API applications with SQL failover redundancy and security hardening.</li>
-              <li class="exp-bullet">Engineered high-availability MongoDB Atlas NoSQL, containerization, and Azure AI capabilities.</li>
+              <li class="exp-bullet">Architected high-scalability Azure API backend with SQL failover redundancy and enterprise security hardening.</li>
+              <li class="exp-bullet">Engineered high-availability MongoDB Atlas NoSQL, containerization, and modern Azure AI capabilities.</li>
             </ul>
             <div class="bento-tech-pills">
               <span class="tech-pill">SQL Azure</span>
@@ -390,8 +388,8 @@
           <div class="exp-content">
             <h3 class="exp-headline">Senior Data Architect</h3>
             <ul class="exp-bullets">
-              <li class="exp-bullet">Architected accelerated GCP-to-Salesforce data pipeline to replace legacy enterprise CRM.</li>
-              <li class="exp-bullet">Built automated BigQuery pipelines with Dataform, Cloud Run Python functions, CDC, and Salesforce Data Cloud.</li>
+              <li class="exp-bullet">Architected and deployed rapid GCP-to-Salesforce data pipeline to successfully decommission legacy CRM on an accelerated timeline.</li>
+              <li class="exp-bullet">Engineered automated BigQuery pipelines with Dataform CDC models, serverless Cloud Run functions, and Salesforce Data Cloud.</li>
             </ul>
             <div class="bento-tech-pills">
               <span class="tech-pill">GCP</span>
@@ -417,8 +415,8 @@
           <div class="exp-content">
             <h3 class="exp-headline">Cloud and Data Consultant</h3>
             <ul class="exp-bullets">
-              <li class="exp-bullet">Architected distributed agent application retrieving financial data across thousands of client locations into central warehouse.</li>
-              <li class="exp-bullet">Engineered scalable ingestion workflows leveraging C#, PowerShell, SQL, AI, and AWS.</li>
+              <li class="exp-bullet">Architected distributed agent application ingesting financial data across thousands of client locations into centralized data warehouse.</li>
+              <li class="exp-bullet">Engineered high-throughput processing workflows leveraging C#, PowerShell, SQL, AI technologies, and AWS.</li>
             </ul>
             <div class="bento-tech-pills">
               <span class="tech-pill">AWS</span>
@@ -444,8 +442,8 @@
           <div class="exp-content">
             <h3 class="exp-headline">DBA / Cloud Architect</h3>
             <ul class="exp-bullets">
-              <li class="exp-bullet">Designed and maintained enterprise Azure cloud infrastructure and high-throughput Snowflake warehouse.</li>
-              <li class="exp-bullet">Integrated Collibra data lineage, Azure Key Vaults, ADLS, and orchestrated complex ADF / Logic Apps pipelines.</li>
+              <li class="exp-bullet">Designed and maintained enterprise Azure cloud infrastructure and high-throughput Snowflake data warehouse.</li>
+              <li class="exp-bullet">Integrated Collibra enterprise data lineage, Azure Key Vaults, ADLS, and orchestrated complex ADF / Logic Apps pipelines.</li>
             </ul>
             <div class="bento-tech-pills">
               <span class="tech-pill">Snowflake</span>
@@ -471,7 +469,7 @@
           <div class="exp-content">
             <h3 class="exp-headline">DBA / Cloud Consultant</h3>
             <ul class="exp-bullets">
-              <li class="exp-bullet">AWS architecture cost optimization, automated resource right-sizing, and database tuning.</li>
+              <li class="exp-bullet">AWS FinOps cost optimization, automated compute/storage right-sizing, and deep database performance tuning.</li>
             </ul>
             <div class="bento-tech-pills">
               <span class="tech-pill">AWS</span>
@@ -494,7 +492,7 @@
           <div class="exp-content">
             <h3 class="exp-headline">Cloud Architecture Consultant</h3>
             <ul class="exp-bullets">
-              <li class="exp-bullet">Consulted on product infrastructure and migration of large AWS infrastructure to Switch data centers.</li>
+              <li class="exp-bullet">Consulted on product infrastructure and migration of large-scale AWS infrastructure to Switch data center facilities.</li>
             </ul>
             <div class="bento-tech-pills">
               <span class="tech-pill">AWS</span>
@@ -518,8 +516,7 @@
           <div class="exp-content">
             <h3 class="exp-headline">Team Lead and Senior DBA</h3>
             <ul class="exp-bullets">
-              <li class="exp-bullet">Led a specialized team of 6 database engineers across enterprise production environments.</li>
-              <li class="exp-bullet">High-availability database architecture, query optimization, and infrastructure systems.</li>
+              <li class="exp-bullet">Led a specialized team of 6 database engineers across enterprise production environments; high-availability clustering and query optimization.</li>
             </ul>
             <div class="bento-tech-pills">
               <span class="tech-pill">MS SQL Server</span>
@@ -542,10 +539,10 @@
     <!-- VERIFIED CREDENTIALS & CERTIFICATIONS -->
     <section id="credentials" class="section-wrapper container">
       <div class="section-header animate-on-scroll">
-        <span class="section-tag">Verified Competence</span>
+        <span class="section-tag">Industry Certifications</span>
         <h2 class="section-title">Credentials &amp; Certifications.</h2>
         <p class="section-subtitle">
-          Industry-standard credentials verified by Microsoft, Amazon Web Services, and Snowflake.
+          Industry-standard certifications across Microsoft Enterprise Data, Amazon Web Services, and Snowflake.
         </p>
       </div>
 
@@ -558,16 +555,15 @@
                 <img src="{{ "lib/images/Microsoft_logo.svg" | relURL }}" alt="Microsoft" class="cred-logo">
               </div>
               <span class="cred-status-badge">
-                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Verified
+                Charter Certification
               </span>
             </div>
             <h3 class="cred-title">Microsoft&reg; Certified Solutions Expert: Data Platform</h3>
             <p class="cred-issuer">Microsoft Corporation &bull; Enterprise Data Platform</p>
           </div>
           <div class="cred-footer">
-            <span class="font-mono" style="font-size:0.7rem; color:var(--text-dim);">ENTERPRISE DATA</span>
-            <span class="font-mono" style="font-size:0.72rem; color:var(--accent-cyan); font-weight:600;">MCSE: DATA PLATFORM</span>
+            <span class="font-mono" style="font-size:0.75rem; color:var(--text-dim);">ENTERPRISE DATA</span>
+            <span class="font-mono" style="font-size:0.75rem; color:var(--accent-cyan); font-weight:600;">MCSE: DATA PLATFORM</span>
           </div>
         </div>
 
@@ -579,16 +575,15 @@
                 <img src="{{ "lib/images/Microsoft_logo.svg" | relURL }}" alt="Microsoft" class="cred-logo">
               </div>
               <span class="cred-status-badge">
-                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Verified
+                Charter Certification
               </span>
             </div>
             <h3 class="cred-title">Microsoft&reg; Certified Solutions Expert: Data Management &amp; Analytics</h3>
             <p class="cred-issuer">Microsoft Corporation &bull; Analytics Architecture</p>
           </div>
           <div class="cred-footer">
-            <span class="font-mono" style="font-size:0.7rem; color:var(--text-dim);">ANALYTICS ARCHITECTURE</span>
-            <span class="font-mono" style="font-size:0.72rem; color:var(--accent-cyan); font-weight:600;">MCSE: ANALYTICS</span>
+            <span class="font-mono" style="font-size:0.75rem; color:var(--text-dim);">ANALYTICS ARCHITECTURE</span>
+            <span class="font-mono" style="font-size:0.75rem; color:var(--accent-cyan); font-weight:600;">MCSE: ANALYTICS</span>
           </div>
         </div>
 
@@ -600,16 +595,15 @@
                 <img src="{{ "lib/images/aws_3.svg" | relURL }}" alt="AWS" class="cred-logo" data-fallback="{{ "lib/images/aws.svg" | relURL }}" onerror="this.src=this.dataset.fallback">
               </div>
               <span class="cred-status-badge">
-                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Verified
+                Active Certification
               </span>
             </div>
             <h3 class="cred-title">AWS Certified Solutions Architect &mdash; Associate</h3>
             <p class="cred-issuer">Amazon Web Services &bull; Cloud Architecture</p>
           </div>
           <div class="cred-footer">
-            <span class="font-mono" style="font-size:0.7rem; color:var(--text-dim);">CLOUD ARCHITECTURE</span>
-            <span class="font-mono" style="font-size:0.72rem; color:var(--accent-emerald); font-weight:600;">AWS SAA-C03</span>
+            <span class="font-mono" style="font-size:0.75rem; color:var(--text-dim);">CLOUD ARCHITECTURE</span>
+            <span class="font-mono" style="font-size:0.75rem; color:var(--accent-emerald); font-weight:600;">AWS SAA-C03</span>
           </div>
         </div>
 
@@ -621,16 +615,15 @@
                 <img src="{{ "lib/images/snfw.svg" | relURL }}" alt="Snowflake" class="cred-logo">
               </div>
               <span class="cred-status-badge">
-                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Verified
+                Active Certification
               </span>
             </div>
             <h3 class="cred-title">SnowPro&reg; Core Certification</h3>
             <p class="cred-issuer">Snowflake Inc. &bull; Cloud Data Platform</p>
           </div>
           <div class="cred-footer">
-            <span class="font-mono" style="font-size:0.7rem; color:var(--text-dim);">CLOUD DATA PLATFORM</span>
-            <span class="font-mono" style="font-size:0.72rem; color:var(--accent-cyan); font-weight:600;">SNOWPRO CORE</span>
+            <span class="font-mono" style="font-size:0.75rem; color:var(--text-dim);">CLOUD DATA PLATFORM</span>
+            <span class="font-mono" style="font-size:0.75rem; color:var(--accent-cyan); font-weight:600;">SNOWPRO CORE</span>
           </div>
         </div>
 
@@ -642,16 +635,15 @@
                 <img src="{{ "lib/images/snfw.svg" | relURL }}" alt="Snowflake" class="cred-logo">
               </div>
               <span class="cred-status-badge">
-                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Verified
+                Active Certification
               </span>
             </div>
             <h3 class="cred-title">SnowPro&reg; Advanced Data Engineer</h3>
             <p class="cred-issuer">Snowflake Inc. &bull; Advanced Data Engineering</p>
           </div>
           <div class="cred-footer">
-            <span class="font-mono" style="font-size:0.7rem; color:var(--text-dim);">DATA ENGINEERING</span>
-            <span class="font-mono" style="font-size:0.72rem; color:var(--accent-cyan); font-weight:600;">SNOWPRO ADVANCED</span>
+            <span class="font-mono" style="font-size:0.75rem; color:var(--text-dim);">DATA ENGINEERING</span>
+            <span class="font-mono" style="font-size:0.75rem; color:var(--accent-cyan); font-weight:600;">SNOWPRO ADVANCED</span>
           </div>
         </div>
 
@@ -662,17 +654,17 @@
               <div class="cred-logo-wrapper">
                 <span style="font-weight:900; font-size:1.4rem; letter-spacing:-0.03em; color:#fff;">Toptal</span>
               </div>
-              <span class="cred-status-badge">
-                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Verified
-              </span>
+              <a href="https://www.toptal.com/resume/paul-zgondea" target="_blank" rel="noopener noreferrer" class="cred-status-badge" style="text-decoration:none; color:var(--accent-cyan); display:inline-flex; align-items:center; gap:0.25rem;">
+                <span>View Public Profile</span>
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg>
+              </a>
             </div>
             <h3 class="cred-title">Toptal Vetted Cloud &amp; Data Architect</h3>
-            <p class="cred-issuer">Toptal Global Network &bull; Verified Talent</p>
+            <p class="cred-issuer">Toptal Global Network &bull; Verified Freelance Talent</p>
           </div>
           <div class="cred-footer">
-            <span class="font-mono" style="font-size:0.7rem; color:var(--text-dim);">GLOBAL TALENT NETWORK</span>
-            <span class="font-mono" style="font-size:0.72rem; color:var(--accent-emerald); font-weight:600;">TOP 3% VETTED</span>
+            <span class="font-mono" style="font-size:0.75rem; color:var(--text-dim);">GLOBAL TALENT NETWORK</span>
+            <span class="font-mono" style="font-size:0.75rem; color:var(--accent-emerald); font-weight:600;">VETTED PRINCIPAL TALENT</span>
           </div>
         </div>
       </div>
@@ -709,7 +701,7 @@
           <span class="section-tag">Direct Collaboration</span>
           <h2 class="section-title" style="margin-bottom: 1.5rem;">Ready to Architect Without Compromise?</h2>
           <p style="font-size: 1.1rem; color: var(--text-muted); line-height: 1.7; margin-bottom: 2rem;">
-            Paul boasts a wealth of expertise spanning over 18 years in data architecture complemented by 8+ years dedicated to cloud architecture and 2+ years in enterprise AI Ops. Based in <strong style="color:#fff;">Brașov, Romania</strong>, he is open for fully remote strategic consulting, architecture reviews, and high-impact contractor engagements.
+            I bring over 18 years of battle-tested enterprise data architecture, 8+ years dedicated to cloud platforms &amp; SRE, and 2+ years in enterprise AI Ops. Based in <strong style="color:#fff;">Brașov, Romania</strong>, I partner with engineering leadership globally for fully remote strategic consulting, architecture reviews, and high-impact contractor engagements.
           </p>
 
           <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 2.5rem;">
@@ -732,10 +724,6 @@
             <a href="https://www.toptal.com/resume/paul-zgondea" target="_blank" rel="noopener noreferrer" class="footer-link">
               <span style="font-weight:800; font-size:0.9rem;">Toptal</span>
               <span>Profile</span>
-            </a>
-            <a href="https://t.me/ZVPalu" target="_blank" rel="noopener noreferrer" class="footer-link">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
-              <span>Telegram</span>
             </a>
             <a href="https://github.com/pzgondea" target="_blank" rel="noopener noreferrer" class="footer-link">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
@@ -873,12 +861,21 @@
           <h3 class="step-question">Synchronize Direct Session:</h3>
           <p class="step-subtext">Book a 30-minute strategic architecture review with Paul Zgondea directly via Cal.com.</p>
           
+          <!-- Compiled Architecture Brief Summary -->
+          <div id="modal-brief-summary" style="display:none; margin-bottom:1.25rem; padding:1rem 1.25rem; background:rgba(34,211,238,0.06); border:1px solid rgba(34,211,238,0.25); border-radius:0.75rem; font-size:0.85rem;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem; gap:0.5rem; flex-wrap:wrap;">
+              <span class="font-mono" style="color:var(--accent-cyan); font-weight:700; font-size:0.75rem; text-transform:uppercase;">Architecture Brief Captured</span>
+              <button type="button" id="copy-brief-btn" class="btn-secondary" style="padding:0.25rem 0.65rem; font-size:0.75rem;">Copy Brief</button>
+            </div>
+            <div id="modal-brief-text" style="color:#cbd5e1; line-height:1.5; font-size:0.82rem;"></div>
+          </div>
+
           <div id="cal-embed-wrapper" style="min-height:520px; width:100%;">
-            <!-- Loaded lazily via JS -->
+            <!-- Loaded lazily via JS with prefilled parameters -->
           </div>
 
           <div style="margin-top:1.5rem; text-align:center;">
-            <a href="https://cal.com/paul-zgondea-ykew6o/30min?embed=true&theme=dark" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="font-size:0.8rem;">
+            <a id="cal-fallback-link" href="https://cal.com/paul-zgondea-ykew6o/30min?embed=true&theme=dark" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="font-size:0.8rem;">
               Open Calendar in New Window &rarr;
             </a>
           </div>
@@ -913,6 +910,7 @@
           <a href="#profile">Profile</a>
           <a href="#experience">Experience</a>
           <a href="#credentials">Credentials</a>
+          <a href="{{ "/posts/a_wild_ride/" | relURL }}">Articles</a>
           <a href="#about">Connect</a>
           <a href="https://keystonecloud.org/" target="_blank" rel="noopener noreferrer" style="color:var(--accent-cyan);">Keystone Cloud &rarr;</a>
         </div>

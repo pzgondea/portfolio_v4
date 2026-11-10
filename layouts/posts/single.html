@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="spotlight-card" style="padding: 3.5rem 2.5rem; max-width: 900px; margin: 0 auto;">
+  <div style="margin-bottom: 2rem; border-bottom: 1px solid var(--border-subtle); padding-bottom: 1.5rem;">
+    <a href="/" style="color: var(--accent-cyan); text-decoration: none; font-size: 0.85rem; font-weight: 700; display: inline-flex; align-items: center; gap: 0.4rem; margin-bottom: 1.25rem;">
+      &larr; Back to Strategic Architecture
+    </a>
+    <h1 style="font-size: clamp(2rem, 4vw, 2.75rem); font-weight: 800; color: #fff; letter-spacing: -0.03em; line-height: 1.2; margin-bottom: 0.75rem;">{{ .Title }}</h1>
+    <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
+      {{ if .Date }}
+      <span class="font-mono" style="font-size: 0.75rem; color: var(--accent-emerald); font-weight: 600; text-transform: uppercase;">{{ .Date.Format "January 2, 2006" }}</span>
+      <span style="color: var(--border-subtle);">&bull;</span>
+      {{ end }}
+      <span class="font-mono" style="font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase;">{{ .ReadingTime }} MIN READ</span>
+      <span style="color: var(--border-subtle);">&bull;</span>
+      <span class="font-mono" style="font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase;">BY PAUL ZGONDEA</span>
+    </div>
+  </div>
+
+  <div class="content-body" style="font-size: 1.05rem; line-height: 1.85; color: #cbd5e1;">
+    {{ .Content }}
+  </div>
+
+  <div style="margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+    <a href="/" class="btn-secondary" style="font-size: 0.85rem;">
+      &larr; Back to Portfolio Profile
+    </a>
+    <button type="button" class="btn-primary open-intake-modal" style="font-size: 0.85rem;">
+      <span>Consult with Paul</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </button>
+  </div>
+</div>
+{{ end }}
