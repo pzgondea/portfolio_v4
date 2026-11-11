@@ -4,6 +4,12 @@ All notable changes and architectural transitions for the Paul Zgondea executive
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [v4.4.3] — 2026-11-10
+### Fixed
+- **AWS Dark Mode Logo Contrast**: Changed the AWS text fill color from dark navy (`#252F3E`) to crisp white (`#FFFFFF`) in `aws_3.svg`, `aws.svg`, and `aws_small.svg`, ensuring the "aws" lettering is sharply legible against dark obsidian cards while preserving the signature orange smile arrow.
+
+---
+
 ## [v4.4.2] — 2026-11-10
 ### Changed
 - **Official Microsoft Certification Badges**: Upgraded Cards 1 and 2 from generic corporate wordmarks to the official Microsoft Certified Expert vector badge lockup (`microsoft_certified_shield_lockup.svg`) featuring the authentic blue-navy Expert shield with stars and silver banner.
