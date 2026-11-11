@@ -914,20 +914,38 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 1.25rem;
+  min-height: 42px;
   position: relative;
   z-index: 2;
 }
 
 .cred-logo-wrapper {
-  height: 36px;
+  min-height: 42px;
   display: flex;
   align-items: center;
 }
 
 .cred-logo {
-  height: 32px;
-  max-width: 130px;
+  height: 38px;
+  max-width: 170px;
   object-fit: contain;
+}
+
+.toptal-link {
+  text-decoration: none;
+  color: var(--accent-cyan);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  opacity: 0.85;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.toptal-link:hover {
+  opacity: 1;
+  color: #fff;
 }
 
 .cred-status-badge {

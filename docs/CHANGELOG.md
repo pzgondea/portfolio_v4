@@ -4,6 +4,12 @@ All notable changes and architectural transitions for the Paul Zgondea executive
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [v4.4.2] — 2026-11-10
+### Changed
+- **Official Microsoft Certification Badges**: Upgraded Cards 1 and 2 from generic corporate wordmarks to the official Microsoft Certified Expert vector badge lockup (`microsoft_certified_shield_lockup.svg`) featuring the authentic blue-navy Expert shield with stars and silver banner.
+- **De-cluttered Credentials Grid**: Removed noisy, repetitive green status pills (`CHARTER CERTIFICATION`, `ACTIVE CERTIFICATION`) from cards 1–5 to achieve a clean, executive aesthetic. Replaced Toptal's status pill with an understated inline `View Public Profile ↗` link (`.toptal-link`).
+- **Harmonized Card Sizing**: Standardized `.cred-header` and `.cred-logo-wrapper` min-height to 42px and `.cred-logo` to 38px height with 170px max-width across all 6 credential cards.
+
 ---
 
 ## [v4.4.1] — 2026-11-10
