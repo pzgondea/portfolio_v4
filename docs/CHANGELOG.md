@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [v4.4.1] — 2026-11-10
+### Changed
+- **Modern Microsoft Credential Icons**: Replaced legacy 23×23 `#f3f3f3` grey-box Microsoft icon with official, transparent-background modern Microsoft vector wordmark (`static/lib/images/Microsoft_logo.svg`) perfectly scaled to `.cred-logo` specifications (32px height, 130px max width).
+- **Official Microsoft Certification Assets**: Integrated official Microsoft Learn Expert badge vector (`microsoft_certified_expert.svg`) and modern brand lockup assets into repository assets.
+
+---
+
 ## [v4.4.0] — 2026-11-10
 ### Fixed
 - **Intake Funnel Data Loss**: Captured environment, objective, and briefing notes from steps 1–3 and formatted them into a structured brief displayed in step 4, prefilling Cal.com query parameters (`?notes=...`) and direct links, plus adding a one-click "Copy Brief" utility.
